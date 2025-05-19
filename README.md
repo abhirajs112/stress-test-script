@@ -26,9 +26,7 @@ sudo apt update
 sudo apt install -y stress lm-sensors
 sudo sensors-detect --auto
 🚀 How to Use
-bash
-Copy
-Edit
+
 bash auto_stress_test_with_logging.sh
 The script will:
 
@@ -39,9 +37,7 @@ Log system temperature and CPU stats every 10 seconds
 Save logs to stress_test_log_YYYYMMDD_HHMMSS.log
 
 📁 Output Example
-scss
-Copy
-Edit
+
 Running stress test on Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz with 8 threads.
 Stress test running for 300 seconds (5 minutes)...
 [2025-05-19 14:12:01] Temp: 65.0°C | Load Avg: 7.97 | CPU Usage: 98%
