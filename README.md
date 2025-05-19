@@ -25,6 +25,8 @@ Install required tools before running:
 sudo apt update
 sudo apt install -y stress lm-sensors
 sudo sensors-detect --auto
+
+
 🚀 How to Use
 
 bash auto_stress_test_with_logging.sh
@@ -43,6 +45,8 @@ Stress test running for 300 seconds (5 minutes)...
 [2025-05-19 14:12:01] Temp: 65.0°C | Load Avg: 7.97 | CPU Usage: 98%
 [2025-05-19 14:12:11] Temp: 66.5°C | Load Avg: 7.99 | CPU Usage: 99%
 ...
+
+
 📌 Notes
 Only works on Linux systems (tested on Ubuntu Live OS)
 
